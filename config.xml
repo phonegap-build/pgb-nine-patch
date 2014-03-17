@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+  xmlns:gap   = "http://phonegap.com/ns/1.0"
+  id          = "com.phonegapbuild.patch-nine"
+  version     = "0.1">
+
+  <name>Android Patch9</name>
+
+  <preference name="phonegap-version" value="3.3.0" />
+
+  <description>
+        An app which demonstrates the use of a patch-9 splashscreen
+  </description>
+
+  <author href="http://adobe.com">
+    Brett Rudd
+  </author>
+
+  <gap:splash src="splash.9.png" />
+
+  <!-- optional overrides for different screens
+
+  <gap:splash src="splash.9.png" gap:platform="android" gap:density="ldpi" />
+  <gap:splash src="splash.9.png" gap:platform="android" gap:density="mdpi" />
+  <gap:splash src="splash.9.png" gap:platform="android" gap:density="hdpi" />
+  <gap:splash src="splash.9.png" gap:platform="android" gap:density="xhdpi" />
+  <gap:splash src="splash.9.png" gap:platform="android" gap:density="xxhdpi" />
+  
+  -->
+
+  <preference name="SplashScreenDelay" value="5000" />
+  <preference name="FullScreen" value="true" />
+  
+  <gap:platform name="android" />
+  
+</widget>
